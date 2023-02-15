@@ -1,0 +1,20 @@
+<div class="login-box">
+  <h2>Login</h2>
+  <form>
+    <div class="user-box">
+      <input type="text" name="" required="true" [(ngModel)]="user" [ngModelOptions]="{standalone: true}">
+      <label>Username</label>
+    </div>
+    <div class="user-box">
+      <input type="password" name="" required="true" [(ngModel)]="pw" [ngModelOptions]="{standalone: true}">
+      <label>Password</label>
+    </div>
+    <a (click)="login()">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Submit
+    </a>
+  </form>
+</div>
