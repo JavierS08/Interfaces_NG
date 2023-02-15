@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
   login(){
     if (this.user==="root")
       if (this.pw==="root")
-        this.router.navigate(['home'])
+        this.router.navigate(['home/bienvenida'])
   }
 
 }
